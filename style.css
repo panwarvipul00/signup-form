@@ -1,0 +1,55 @@
+#checkbox, #student, #employee {
+    margin-left: 300px;
+}
+input[type="radio"], #checkbox {
+    margin-left: 300px;
+}
+hr{
+    margin-left:300px;
+    margin-right: 350px;
+}
+
+.vip {
+    margin: 0 300px;
+}
+
+h1{
+    margin-left: 300px;
+    
+    font-size: 50px;
+
+}
+
+#butt {
+    display: block;
+    margin-right: 200px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  background: none;
+  border: none;
+  
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 25px;
+  outline: none;
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 300px;
+  }
+
+  ::placeholder {
+    color: white;
+    opacity: 1; /* For Firefox */
+  }
+  
