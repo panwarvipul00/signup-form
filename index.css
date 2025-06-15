@@ -1,0 +1,91 @@
+body{
+  background-color: black;
+
+}
+h1{
+  color: aliceblue;
+  margin-top: 100px;
+  margin-left: 320px;
+  font-size: 65px;
+  font-family: Inter;
+  font-weight: 400;
+  
+  
+}
+
+hr{
+  width: 60%;
+  margin-left: 0;
+}
+label[for="Student"] {
+  color: white; 
+  margin-top: 120px;
+  align-items: center;
+}
+
+label[for="Employee"] {
+  color: white; 
+  margin-top: 120px;
+}
+label[for="agreement"] {
+  color: white; 
+}
+#agreement{
+  margin-top: 200px;
+}
+.credentials{
+  padding-left: 330px;
+}
+#name{
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color:white;
+  background-color: black;
+}
+#name::placeholder {
+  color: white;  /* Set the placeholder text color to white */
+  opacity: 1;    /* Make sure the color is fully opaque */
+}
+
+
+
+
+#email{
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color:white;
+  background-color: black;
+}
+#email::placeholder {
+  color: white;  /* Set the placeholder text color to white */
+  opacity: 1;    /* Make sure the color is fully opaque */
+}
+#Password{
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color:white;
+  background-color: black;
+}
+#Password::placeholder {
+  color: white;  /* Set the placeholder text color to white */
+  opacity: 1;    /* Make sure the color is fully opaque */
+}
+#DOB{
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color:white;
+  background-color: black;
+}
+#DOB::placeholder {
+  color: white;  /* Set the placeholder text color to white */
+  opacity: 1;    /* Make sure the color is fully opaque */
+}
+#submit{
+  margin-top: 10px;
+  width: 160px;
+  height: 42px;
+}
